@@ -4,7 +4,7 @@
 This is a web application for Pizzeria which is a pizza selling venture, that showcases its products and services.The site enables customers to  place their orders online based on their preferred pizza size, type of crust and toppings. It also allows them to input a location point which they would like the pizza to be delivered to. 
 
 ## Author.
-[Denis Leparteleg]:https://github.com/Denis-leparteleg
+[Denis Leparteleg] :https://github.com/Denis-leparteleg
 
 ## Behavior Driven Development (BDD).
 <table>
