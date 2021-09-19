@@ -40,5 +40,20 @@ $(document).ready(function(){
                console.log("error"); 
            }
            // Type of crust switch case statement
-           
+              switch(pcrust){
+      case "0":
+        crust_price = 0;
+      break;
+      case "Crispy":
+        crust_price = 200;
+      break;
+      case "Stuffed":
+        crust_price = 250;
+      break;
+      case "Gluten-free":
+        crust_price = 180;
+      break;
+      default:
+        console.log("No price"); 
+    }
 })
