@@ -9,3 +9,11 @@ body{
     margin: 0;
     padding: 0;
 }
+h1{
+    letter-spacing: 8px;
+    color: rgb(226, 7, 7);
+    font-weight: bolder;
+    font-family: 'Wallpoet', cursive;
+    font-size: 60px;
+    text-shadow: 2px 2px 5px white;
+}
