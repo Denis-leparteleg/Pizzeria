@@ -151,3 +151,16 @@ $(document).ready(function(){
         console.log("Your total bills is sh. "+checkoutTotal);
         $("#pizzatotal").append("Your bill is sh. "+checkoutTotal);
       });
+
+     // home delivery button
+    $("button.deliver").click(function(){
+        $(".pizzatable").hide();
+        $(".choise h2").hide();
+        $(".delivery").slideDown(1000);
+        $("#addedprice").hide();
+        $("button.deliver").hide();
+        $("#pizzatotal").hide();
+        let deliceryamount= checkoutTotal+150;
+        console.log("You will pay sh. "+deliceryamount+" on delivery");
+        $("#totalbill").append("Your bill plus delivery fee is: "+deliceryamount);
+      });
