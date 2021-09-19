@@ -38,4 +38,193 @@ strong {
     text-align: center;
     font-size: smaller;
     color: white;
+    margin-top: 50px;
 }
+.text a{
+    font-size: 20px;
+    font-weight: 700;
+  }
+  .text h5{
+    font-size: 25px;
+    padding: 30px;
+  }
+  .button{
+    border-radius: 10px;
+  }
+  .card-title{
+    text-align: center;
+    color: red;
+    font-weight: 800;
+  }
+  .controls-top h2{
+    color: rgb(216, 16, 9);
+    padding-top: 40px;
+    padding-bottom: 20px;
+    font-weight: bolder;
+    text-align: center;
+  }
+  .col-md-4{
+    border-radius: 10%;
+    padding: 10px;
+  }
+
+  .bounce {
+    animation: bounce 2s infinite;
+  }
+  
+  @keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+      transform: translateY(0);
+    }
+    40% {
+      transform: translateY(-35px);
+    }
+    60% {
+      transform: translateY(-20px);
+    }
+  }
+  .order h2{
+    text-align: center;
+  }
+  #variety{
+    padding-top: 30px;
+  }
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: auto;
+
+}
+  .order{
+    background-attachment: fixed;
+    background-image: url("../assets/slider.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    padding-top: 4%;
+    padding-bottom: 4%;
+  }
+  .order-overlay{
+    background-color: rgba(0, 0, 0, 0.8);
+    margin-left: 2%;
+    margin-right: 2%;
+    padding-bottom: 20px;
+    padding-left: 6%;
+  }
+  .choise{
+    display: none;
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+  .deliver{
+    display: none;
+  }
+  .delivery{
+    display: none;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  td,th{
+    font-size: 20px;
+    color: white;
+  }
+  .choise h2{
+    color:orange;
+    text-align: left;
+  }
+  #your-orders{
+    color: white;
+    font-size: 30px;
+  }
+  
+  #contact h2{
+    text-align: center;
+  }
+  #contact{
+    color: black;
+  }
+  #contactdetails h2{
+    text-align: left;
+  }
+  .footer{
+    padding-top: 5%;
+  }
+  #addedprice{
+    display: none;
+  }
+  #finallmessage{
+    display: none;
+    padding-top: 10%;
+    padding-right: 10%;
+    padding-left: 10%;
+    font-size: 28px;
+  }
+  #regards{
+    text-align: center;
+    color: aliceblue;
+  }
+  #information{
+    padding-top: 5%;
+    font-size: 22px;
+    padding-right: 8%;
+    padding-left: 5%;
+    color: #ffa500;
+  }
+  @media only screen and (max-width: 485px){
+    .flex-xs-column {
+      flex-direction: column;
+    }
+  }
+  @media only screen and (max-width: 767px){
+    .section {
+      padding-top: 30px;
+  }
+  .flex-xs-column {
+      flex-direction: column;
+  }
+  #about-us .content {
+    padding: 20px 30px 40px;
+  }
+  .about-pic img{
+    width: 94%;
+  }
+  .order-overlay{
+    background-color: rgba(0, 0, 0,0.5);
+    margin-left: 2%;
+    margin-right: 2%;
+    padding-right: 16px;
+    padding-left: 16px;
+  }
+  .order h2{
+    text-align: center;
+    font-size: 20px;
+  }
+  body,
+  header,
+  .landing {
+    height: 100vh;
+  }
+  h1 {
+    font-weight: bold;
+    font-size: 40px;
+  }
+  .text h5{
+    font-size: 20px;
+    padding: 20px;
+  }
+  #head{
+    padding-top: 30%;
+  }
+  .col-md-3{
+    padding-left: 20%;
+  }
+  .iframe{
+    width: 300px;
+    margin-right: 5%;
+    margin-left: 10%;
+  }
+  
+  }
+  
+  
