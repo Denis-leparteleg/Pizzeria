@@ -5,15 +5,39 @@ html,body,header,
   scroll-behavior: smooth;
   font-family: 'Eczar', serif;
 }
-body{
+body {
     margin: 0;
     padding: 0;
 }
-h1{
+h1 {
     letter-spacing: 8px;
     color: rgb(226, 7, 7);
     font-weight: bolder;
     font-family: 'Wallpoet', cursive;
     font-size: 60px;
     text-shadow: 2px 2px 5px white;
+}
+h5 {
+    letter-spacing: 3px;
+}
+#overlay {
+    background-color: rgba(0, 0, 0, 0.1);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+#head {
+    padding-top: 10%;
+}
+nav .navbar {
+    width: 99%;
+    padding-right: 0px;
+}
+.navbar-brand {
+    margin-right: 30%;
+    font-weight:800;
+}
+.nav-item a {
+    font-size: 20px;
+    font-weight: 700;
 }
