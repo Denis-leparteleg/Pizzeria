@@ -130,7 +130,7 @@ strong {
     color: white;
   }
   .choise h2{
-    color:orange;
+    color:red;
     text-align: left;
   }
   #your-orders{
@@ -169,8 +169,11 @@ strong {
     font-size: 22px;
     padding-right: 8%;
     padding-left: 5%;
-    color: #ffa500;
+    color: red;
   }
 
   
-  
+#size,
+#crust {
+  width: 50%;
+}

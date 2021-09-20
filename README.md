@@ -14,29 +14,29 @@ This is a web application for Pizzeria which is a pizza selling venture, that sh
           <th>Output</th>
         </tr>
         <tr>
-        <td>Choose the size of pizza</td>
+        <td>Select size of pizza</td>
         <td>Small, Medium, Large</td>
         <td>Small, Medium, Large</td>
         </tr>
         <tr>
-        <td>Choose what kind of crust</td>
+        <td>Select the preferred crust</td>
         <td>Crispy, Stuffed, Gluten-free.</td>
         <td>Crispy, Stuffed, Gluten-free.</td>
         </tr>
         <tr>
-        <td>Choose the toppings</td>
+        <td>Select the toppings</td>
         <td>Sausage, Bacon, Mushrooms.</td>
         <td>Sausage, Bacon, Mushrooms.</td>
         </tr>
         <tr>
         <td>Place an order</td>
         <td>place order</td>
-        <td>Your total charge is KSHs...</td>
+        <td>Your total charge is sh...</td>
         </tr>
         <tr>
         <td>Type in the delivery location point</td>
         <td>Adams Arcade shopping center</td>
-        <td>Your delivery charge fee is KSHs...</td>
+        <td>Your delivery charge fee is sh...</td>
         </tr>
 </table>
       
@@ -44,12 +44,12 @@ This is a web application for Pizzeria which is a pizza selling venture, that sh
 To be able to access the application the user should install the latest version of google chrome, mozilla firefox or explore and load the live link provided.
 from this point the user can access an online site, and can be able to:
 ```
-+ Choose the size of pizza  that they want e.g Small, Medium, Large
-+ Choose what kind of crust they would like the pizza to have e.g Crispy, Stuffed, Gluten-free.
-+ Choose the topping(s) I want on my pizza.
-+ Place an order for my Pizza and see the total charge for it.
-+ Have an option to order as many pizzas as I want.
-+ Have an option to have the pizza delivered or not.  If it's to be delivered get alerted  on how much the delivery charge will be.
++ Select the size of pizza  that they want e.g Small, Medium, Large
++ Select what kind of crust they would like the pizza to have e.g Crispy, Stuffed, Gluten-free.
++ Selected the topping(s) they prefer on their ordered pizza.
++  Be able to place an order for my Pizza and see the total charge for the same.
++ Have an option to order as many pizzas as they would like.
++ Have an option to have the pizza delivered.  If it's to be delivered get alerted  on how much the delivery charge will be.
 + If they want it delivered get prompted to enter where the delivery should be made.
 
 ```
