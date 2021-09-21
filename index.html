@@ -25,8 +25,8 @@
     <div class="container-fluid">
 
         <header>
-            <!-- ====== Landing section start ====== -->
-            <div class="landing">
+            <!-- ====== Hero section start ====== -->
+            <div class="hero">
                 <div id="overlay">
                     <!-- ====== Navbar section start ====== -->
                     <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
@@ -35,10 +35,10 @@
                         <div class="collapse navbar-collapse align-items-center" id="collapsibleNavbar">
                             <ul class="navbar-nav">
                                 <li class="nav-item">
-                                    <a href="#variety" class="nav-link">Our Varieties</a>
+                                    <a href="#delicacy" class="nav-link">Delicacies</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="inquire" class="nav-link">Inquiries</a>
+                                    <a href="#inquiries" class="nav-link">Inquiries</a>
                                 </li>
                             </ul>
                         </div>
@@ -51,26 +51,26 @@
                           <div class="row">
                             <div class="col-md-12 mb-4 white-text text-center text">
                               <h1 class="h1-reponsive gold-text text-uppercase font-weight-bold mb-0 pt-md-5 pt-5 pulse"><strong>Pizzeria</strong></h1>
-                              <h5 class="text-uppercase mb-4 gold-text floater"><strong>Best Pizza Shop in Town!</strong></h5>
-                              <a class="btn-orange" href="#make-order">Order Now!</a>
+                              <h5 class="text-uppercase mb-4 gold-text floater"><strong>ONE STOP PIZZA SHOP!</strong></h5>
+                              <a class="btn-order" href="#placeOrder">Place Order</a>
                             </div>
                           </div>
                         </div>
                       </div>
-                      <div class="arrow bounce"> <a href="#variety"><img src="assets/arrow.ico" alt=" arrow"width="40px"></a></div>
+                      <div class="arrow bounce"> <a href="#delicacy"><img src="assets/arrow.ico" alt=" arrow"width="40px"></a></div>
                   </div>
                 </div>
                     <!-- ====== About Us section end ====== -->
                 </div>
             </div>
-            <!-- ====== Landing section end ====== -->
+            <!-- ====== Hero section end ====== -->
         </header>
 
         <main>
-            <!-- ====== Varieties section start ====== -->
+            <!-- ====== Delicacies section start ====== -->
             
             <div class="controls-top "> 
-              <h2>Our Varieties</h2>
+              <h2 id="delicacy">Our Delicacies</h2>
             </div>
             <div class="grid-container">
                 
@@ -78,7 +78,7 @@
                   <div class="card mb-2">
                     <img class="card-img-top" src="assets/pizza1.jpg" alt="Card image cap">
                     <div class="card-body">
-                      <h5 class="card-title">Chicken Tikka</h5>
+                      <h5 class="card-title">Freshy</h5>
                     </div>
                   </div>
                 </div>
@@ -86,7 +86,7 @@
                     <div class="card mb-2">
                       <img class="card-img-top" src="assets/pizza2.jpg" alt="Card image cap">
                       <div class="card-body">
-                        <h5 class="card-title">PeriPeri Pizza</h5>
+                        <h5 class="card-title">Spaniola</h5>
                       </div>
                     </div>
                   </div>
@@ -94,7 +94,7 @@
                     <div class="card mb-2">
                       <img class="card-img-top" src="assets/pizza3.jpg" alt="Card image cap">
                       <div class="card-body">
-                        <h5 class="card-title">Raspberry Dessert Pizza</h5>
+                        <h5 class="card-title">Barbeque</h5>
                       </div>
                     </div>
                   </div>
@@ -102,7 +102,7 @@
                     <div class="card mb-2">
                       <img class="card-img-top" src="assets/pizza4.jpg" alt="Card image cap">
                       <div class="card-body">
-                        <h5 class="card-title">Chicken Alfredo Pizza</h5>
+                        <h5 class="card-title">Peri-Peri</h5>
                       </div>
                     </div>
                   </div>
@@ -110,7 +110,7 @@
                     <div class="card mb-2">
                       <img class="card-img-top" src="assets/pizza5.jpg" alt="Card image cap">
                       <div class="card-body">
-                        <h5 class="card-title">Sunchoke Pizza</h5>
+                        <h5 class="card-title">Four Season</h5>
                       </div>
                     </div>
                   </div>
@@ -118,40 +118,51 @@
                     <div class="card mb-2">
                       <img class="card-img-top" src="assets/pizza6.jpg" alt="Card image cap">
                       <div class="card-body">
-                        <h5 class="card-title"> Buffalo Chicken Sticks</h5>
+                        <h5 class="card-title">Mediterenian</h5>
                       </div>
                     </div>
                   </div>
                   
             </div>
-            <!-- ====== Varieties section end ====== -->
-            <div class="container-fluid order" id="make-order">
+            <!-- ====== Delicacies section end ====== -->
+
+            <div class="container-fluid order" id="placeOrder">
                 <div class="order-overlay">
                     <div class="controls-top text-center" id="order-now">
-                        <h2>Order Here</h2>
+                        <h2>Place Order</h2>
                     </div>
-                    <h2>Order your pizza here and we will deliver it to you at your door step!</h2>
+                    <h2>Place your order now!</h2>
                     <div class="row">
                         <div class="col-sm-5">
                             <form action="">
-                                <label for="select">Select Pizza Size</label>
+                              <label for="select">Select Delicacy Name</label>
+                              <select class="browser-default custom-select custom-select-md mb-3" id="name">
+                                <option selected value="0">Select preferred delicacy</option>
+                                <option value="Freshy">Freshy</option>
+                                <option value="Spaniola">Spaniola</option>
+                                <option value="Barbeque">Barbeque</option>
+                                <option value="Peri-Peri">Peri-Peri</option>
+                                <option value="Four Season">Four Season</option>
+                                <option value="Mediterenian">Mediterenian</option>
+                              </select>
+                              <label for="select">Select Pizza Size</label>
                                 <select class="browser-default custom-select custom-select-md mb-3" id="size">
-                                    <option selected value="0">Select preferred pizza size</option>
-                                    <option value="large">Large -- &#64;sh. 1200</option>
-                                    <option value="medium">Medium -- &#64;sh. 850</option>
-                                    <option value="small">Small -- &#64;sh. 600</option>
+                                    <option selected value="0">Select preferred size</option>
+                                    <option value="large">Large -- &#64;sh. 1000</option>
+                                    <option value="medium">Medium -- &#64;sh. 500</option>
+                                    <option value="small">Small -- &#64;sh. 250</option>
                                 </select><br>
-                                <label for="select">Select your favorite Crust!</label>
+                                <label for="select">Select Crust Type</label>
                                 <select class="browser-default custom-select custom-select-md mb-3" id="crust">
-                                    <option selected value="0">Select your preferred crust!</option>
+                                    <option selected value="0">Select preferred crust</option>
                                   <option value="Crispy">Crispy -- &#64;sh. 200</option>
                                   <option value="Stuffed">Stuffed --  &#64;sh. 150</option>
-                                  <option value="Gluten-free">Gluten-free-- &#64;sh. 180</option>
+                                  <option value="Gluten-free">Gluten-free-- &#64;sh. 100</option>
                                 </select>
-                                <label for="select">Select Your Toppings &#64;sh. 50 each</label><br>
+                                <label for="select">Select preferred Toppings &#64;sh. 50 each</label><br>
                                 <div class="custom-control custom-checkbox custom-control-inline">
-                                    <input type="checkbox" class="custom-control-input" id="Sausage" value="Sausage" name="toppings">
-                                    <label class="custom-control-label" for="Sausage">Sausage</label>
+                                    <input type="checkbox" class="custom-control-input" id="Peporoni" value="Peporoni" name="toppings">
+                                    <label class="custom-control-label" for="Peporoni">Peporoni</label>
                                   </div>
                                   <div class="custom-control custom-checkbox custom-control-inline">
                                     <input type="checkbox" class="custom-control-input" id="Bacon" value="Bacon" name="toppings">
@@ -162,21 +173,21 @@
                                     <label class="custom-control-label" for="Mushrooms">Mushrooms</label>
                                   </div>
                                   <br><br>
-                                <button type="submit" class="btn btn-orange proceed">Proceed</button>
+                                <button type="submit" class="continue">Continue</button>
                             </form>
                         </div>
                         <!-- ====== Delivery section start ====== -->
+
                         <div class="col-sm-7">
-                            <div id="information">
-                              <p>Your order will be processed and delivered within one hour of placing.</p>
-                              <p>Make sure you have the total amount for the order during order delivery delivery.</p>
-                              <p>Incase of any comment of complaint, Please reach out to us as fast as possible.</p>
-                              <p id="regards">Regards, Customer service team</p>
+                            <div id="customerService">
+                              <p>Your order will be processed and delivered within one hour upon placement.</p>
+                              <p>Convenience, Efficient & Affordable are our services to our esteem customers</p>
+                              <p id="signOff">Customer delivery support team</p>
                             </div>
-                            <div class="choise">
+                            <div class="selection">
                               <h2>Your Order is:</h2>
-                              <div id="your-orders">
-                                <table class="table table-sm  pizzatable">
+                              <div id="yourOrders">
+                                <table class="table table-sm  orderstable">
                                   <thead>
                                     <tr>
                                       <th scope="col">Name</th>
@@ -186,32 +197,32 @@
                                       <th scope="col">Total</th>
                                     </tr>
                                   </thead>
-                                  <tbody id="ordersmade">
+                                  <tbody id="ordersPlaced">
                                     <tr>
-                                      <td id="pizzaname"></td>
-                                      <td id="pizzasize"></td>
-                                      <td id="pizzacrust"></td>
-                                      <td id="pizzatopping"></td>
+                                      <td id="pizzaName"></td>
+                                      <td id="pizzaSize"></td>
+                                      <td id="crustType"></td>
+                                      <td id="pizzaTopping"></td>
                                       <td id="totals"></td>
                                     </tr>                  
                                   </tbody>
                                 </table>
-                                <p id="pizzatotal"></p>
-                                <p id="totalbill"></p> 
-                                <p id="addedprice">Delivery will cost sh. 150</p>
-                                <p id="finallmessage"></p>
+                                <p id="pizzaTotal"></p>
+                                <p id="totalBill"></p> 
+                                <p id="addedPrice">Delivery fee is sh. 100</p>
+                                <p id="finalText"></p>
                               </div>
-                              <button class="btn btn-orange addPizza">Add Pizza</button>
-                              <button class="btn btn-orange" id="checkout">Checkout</button>
-                              <button class="btn btn-orange deliver">Home delivery?</button>
+                              <button class="morePizza">More Pizza</button>
+                              <button class="checkout" id="checkout">Checkout</button>
+                              <button class="requestDelivery">Request Delivery</button>
                             </div>
                             <div class="delivery">
                                 <form action="">
                                   <div class="form-group">
-                                    <input type="text" id="name" class="form-control mb-3" placeholder="Name">
-                                    <input type="number" id="phone" class="form-control mb-3" placeholder="Phone Number">
-                                    <input type="text" id="location" class="form-control mb-3" placeholder="Location for delivery">
-                                    <button class="btn btn-orange" id="final-order">Place Order</button>
+                                    <input type="text" id="customerName" class="form-control mb-3" placeholder="Customer Name">
+                                    <input type="number" id="phoneNumber" class="form-control mb-3" placeholder="Phone Number">
+                                    <input type="text" id="deliveryLocation" class="form-control mb-3" placeholder="Location for delivery">
+                                    <button class="placeOrder" id="finalOrder">Place Order</button>
                                   </div>
                                 </form>
                             </div>
@@ -224,11 +235,11 @@
         </main>
         <!-- ====== Footer section start ====== -->
         <footer>
-            <div class="container-fluid bg-default" id="contact">
+            <div class="container-fluid bg-default" id="inquiries">
                 <div class="controls-top "> 
-                    <h2>Contact Us</h2>
+                    <h2>Get in Touch</h2>
                   </div>
-                <div class="row" id="contactdetails">
+                <div class="row" id="contactinfo">
                   <div class="col-md-1">
                      
                   </div>
@@ -239,9 +250,8 @@
                     <p>Nairobi, Kenya</p>
                   </div>
                   <div class="col-md-3">
-                    <h2>Customer Care</h2>
-                     <p>info@pizzeria.co.ke</p>
-                     <p>Tell: 02200300300</p> 
+                    <h2>Customer's Inquires</h2>
+                     <p>inquiries@pizzeria.co.ke</p>
                      <p>Phone: +254728982213</p>
                   </div>
                   <div class="col-md-4">

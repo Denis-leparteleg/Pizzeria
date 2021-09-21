@@ -8,171 +8,180 @@
 body {
   font: 16px Eczar serif;
   color: #212529;
-  background-color: #0000004D;
+  background-color: #0000004d;
 }
 strong {
-    color: red;
-    font: 60px wallpoet cursive;
+  color: red;
+  font: 60px wallpoet cursive;
 }
- h5 strong {
-    color: #ffffff;
-    font: 25px Eczar serif;
+h5 strong {
+  color: #ffffff;
+  font: 25px Eczar serif;
 }
-.btn-orange {
-    color: #212529;
-    font: 25px Eczar serif;
-    background-color: red;
-    margin: 6px;
-    padding: 6px 12px;
-    border-radius: 100px;
+.btn-order,
+.continue,
+.morePizza,
+.checkout,
+.requestDelivery,
+.placeOrder {
+  color: #212529;
+  font: 25px Eczar serif;
+  background-color: red;
+  margin: 6px;
+  padding: 6px 12px;
+  border-radius: 100px;
 }
- a{
-     text-decoration: none;
- }
-.landing {
-    background-image: url("../assets/slider.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 100vh;
-    text-align: center;
-    font-size: smaller;
-    color: white;
-    margin-top: 50px;
+a {
+  text-decoration: none;
 }
-.text a{
-    font-size: 20px;
-    font-weight: 700;
-  }
-  .text h5{
-    font-size: 25px;
-    padding: 30px;
-  }
-  .button{
-    border-radius: 10px;
-  }
-  .card-title{
-    text-align: center;
-    color: red;
-    font-weight: 800;
-  }
-  .controls-top h2{
-    color: rgb(216, 16, 9);
-    padding-top: 40px;
-    padding-bottom: 20px;
-    font-weight: bolder;
-    text-align: center;
-  }
-  .col-md-4{
-    border-radius: 10%;
-    padding: 10px;
-  }
+.hero {
+  background-image: url("../assets/slider.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  text-align: center;
+  font-size: smaller;
+  color: white;
+  margin-top: 50px;
+}
+.text a {
+  font-size: 20px;
+  font-weight: 700;
+}
+.text h5 {
+  font-size: 25px;
+  padding: 30px;
+}
+.button {
+  border-radius: 10px;
+}
+.card-title {
+  text-align: center;
+  color: red;
+  font-weight: 800;
+}
+.controls-top h2 {
+  color: rgb(216, 16, 9);
+  padding-top: 40px;
+  padding-bottom: 20px;
+  font-weight: bolder;
+  text-align: center;
+}
+.col-md-4 {
+  border-radius: 10%;
+  padding: 10px;
+}
 
-  .bounce {
-    animation: bounce 2s infinite;
+.bounce {
+  animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    transform: translateY(0);
   }
-  
-  @keyframes bounce {
-    0%, 20%, 50%, 80%, 100% {
-      transform: translateY(0);
-    }
-    40% {
-      transform: translateY(-35px);
-    }
-    60% {
-      transform: translateY(-20px);
-    }
+  40% {
+    transform: translateY(-35px);
   }
-  .order h2{
-    text-align: center;
+  60% {
+    transform: translateY(-20px);
   }
-  #variety{
-    padding-top: 30px;
-  }
+}
+.order h2 {
+  text-align: center;
+}
+#delicacy {
+  padding-top: 30px;
+}
 .grid-container {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    padding: auto;
-
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: auto;
 }
-  .order{
-    background-attachment: fixed;
-    background-image: url("../assets/slider.jpg");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    color: white;
-    padding-top: 4%;
-    padding-bottom: 4%;
-  }
-  .order-overlay{
-    background-color: rgba(0, 0, 0, 0.8);
-    margin-left: 2%;
-    margin-right: 2%;
-    padding-bottom: 20px;
-    padding-left: 6%;
-  }
-  .choise{
-    display: none;
-    padding-left: 2%;
-    padding-right: 2%;
-  }
-  .deliver{
-    display: none;
-  }
-  .delivery{
-    display: none;
-    padding-left: 10%;
-    padding-right: 10%;
-  }
-  td,th{
-    font-size: 20px;
-    color: white;
-  }
-  .choise h2{
-    color:red;
-    text-align: left;
-  }
-  #your-orders{
-    color: white;
-    font-size: 30px;
-  }
-  
-  #contact h2{
-    text-align: center;
-  }
-  #contact{
-    color: black;
-  }
-  #contactdetails h2{
-    text-align: left;
-  }
-  .footer{
-    padding-top: 5%;
-  }
-  #addedprice{
-    display: none;
-  }
-  #finallmessage{
-    display: none;
-    padding-top: 10%;
-    padding-right: 10%;
-    padding-left: 10%;
-    font-size: 28px;
-  }
-  #regards{
-    text-align: center;
-    color: aliceblue;
-  }
-  #information{
-    padding-top: 5%;
-    font-size: 22px;
-    padding-right: 8%;
-    padding-left: 5%;
-    color: red;
-  }
+.order {
+  background-attachment: fixed;
+  background-image: url("../assets/slider.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  padding-top: 4%;
+  padding-bottom: 4%;
+}
+.order-overlay {
+  background-color: rgba(0, 0, 0, 0.8);
+  margin-left: 2%;
+  margin-right: 2%;
+  padding-bottom: 20px;
+  padding-left: 6%;
+}
 
-  
+.selection {
+  display: none;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+.delivery {
+  display: none;
+}
+.delivery {
+  display: none;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+td,
+th {
+  font-size: 20px;
+  color: white;
+}
+.delivery h2 {
+  color: red;
+  text-align: left;
+}
+#yourOrders {
+  color: white;
+  font-size: 30px;
+}
+
+#inquiries h2 {
+  text-align: center;
+}
+#inquiries {
+  color: black;
+}
+#contactinfo h2 {
+  text-align: left;
+}
+.footer {
+  padding-top: 5%;
+}
+#addedprice {
+  display: none;
+}
+#finalText {
+  display: none;
+  padding-top: 10%;
+  padding-right: 10%;
+  padding-left: 10%;
+  font-size: 28px;
+}
+#signOff {
+  text-align: center;
+  color: aliceblue;
+}
+#customerService {
+  padding-top: 5%;
+  font-size: 22px;
+  padding-right: 8%;
+  padding-left: 5%;
+  color: red;
+}
+#name,
 #size,
 #crust {
   width: 50%;
